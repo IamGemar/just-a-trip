@@ -134,3 +134,10 @@ footer{
     }
     
 }
+@media (max-width: 331px){
+    #fakeDiv{
+        left: 20px;
+        font-size: 0.4em;
+        width: 230px;
+    }
+}
