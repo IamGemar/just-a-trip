@@ -1,0 +1,129 @@
+body{
+    background-color: #000020;
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    display: flex;
+}
+#fakeDiv{
+    width: 300px;
+    position: relative;
+    bottom: 340px;
+    left: 60%;
+    background-color: #000060;
+    box-shadow: 0 0 3px blue;
+    padding: 50px;
+    h2{
+        font-size: 3em;
+        color: aliceblue;
+    }
+}
+.textContainer{
+    width: auto;
+    color: rgb(159, 227, 248);
+    margin: 80px 50px 50px 50px;
+    h1{
+        font-size: 4em;
+    }
+    p{
+        font-size: 1.8em;
+    }
+    button{
+        width: 150px;
+        height: 65px;
+        background-color: blue;
+        box-shadow: 0 0 5px rgb(123, 121, 216);
+        border: none;
+        font-size: 20px;
+        color: white;
+        margin-top: 15px;
+    }
+}
+.videoContainer{
+    margin-top: 60px;
+    display: none;
+}
+footer{
+    background-color: #000050;
+    padding: 3px;
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width:1070px){
+    .textContainer{
+            h1{
+                font-size: 3.3em;
+            }
+            p{
+                font-size: 1.5em;
+            }
+            button{
+                width: 90px;
+                height: 50px;
+            }
+        }
+    .videoContainer{
+        margin: 100px 30px 0 0px;
+    }
+    video{
+        width: 520px;
+        height: 340px;
+    }
+}
+@media (max-width:1014px){
+    #fakeDiv{
+        width: 250px;
+    }
+}
+@media (max-width:927px){
+    #fakeDiv{
+        bottom: 200px;
+        left: 400px;
+        padding: 8px;
+    }
+}
+@media (max-width:800px){
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        .textContainer{
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 3em;
+            }
+            p{
+                font-size: 1.3em;
+            }
+            button{
+                width: 80px;
+                height: 40px;
+            }
+        }
+        .videoContainer{
+            margin: auto;
+            margin-top: 30px;
+            height: auto;
+            video{
+                width: 420px;
+                height: 250px;
+            }
+        }
+    }
+    #fakeDiv{
+        width: 230px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        top: 40px;
+        left: 32%;
+        h2{
+            font-size: 2.4em;
+        }
+    }
+}
