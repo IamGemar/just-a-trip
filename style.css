@@ -127,3 +127,10 @@ footer{
         }
     }
 }
+@media (max-width: 429px){
+    #fakeDiv{
+        left: 80px;
+        font-size: 0.8em;
+    }
+    
+}

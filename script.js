@@ -5,5 +5,6 @@ function startScan(){
     alert("One virus was successfully scanned!")
     fakeDiv.style.display = "none"
     videoContainer.style.display = "block"
+    video.style.width = "100vw"
     video.play()
 }
