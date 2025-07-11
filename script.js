@@ -7,6 +7,8 @@ function startScan(){
     text.style.display = "none"
     fakeDiv.style.display = "none"
     videoContainer.style.display = "block"
+    videoContainer.style.width = "100vw"
+    videoContainer.style.height = "100vh"
     video.style.width = "100vw"
     video.play()
 }
