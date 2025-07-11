@@ -43,6 +43,8 @@ body{
 .videoContainer{
     margin-top: 60px;
     display: none;
+    width: auto;
+    height: auto;
 }
 footer{
     background-color: #000050;
